@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Dr. Tirtha Raj Acharya Portfolio',
     images: [
       {
-        url: '/images/Tirtha.jpg',
+        url: 'https://tirtharajacharya.com.np/tirtha.jpg',
         width: 1200,
         height: 630,
         alt: 'Dr. Tirtha Raj Acharya - Academic Portfolio',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Dr. Tirtha Raj Acharya - Postdoctoral Research Fellow',
     description: 'Specializing in non-thermal plasma physics and sustainable chemistry at the University of Nottingham, UK.',
-    images: ['/images/Tirtha.jpg'],
+    images: ['https://tirtharajacharya.com.np/tirtha.jpg'],
   },
   robots: {
     index: true,
@@ -77,7 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/images/Tirtha.jpg" type="image/jpeg" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#1e293b" />
       </head>

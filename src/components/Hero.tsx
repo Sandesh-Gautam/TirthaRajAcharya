@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/Tirtha.jpg"
+          src="/tirtha.jpg"
           alt="Dr. Tirtha Raj Acharya"
           fill
           className="object-cover opacity-40"

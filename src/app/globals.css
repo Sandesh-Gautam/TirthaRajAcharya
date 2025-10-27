@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #374151;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-navy text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-navy/90 hover:shadow-lg transform hover:-translate-y-1;
+  }
+  
+  .btn-secondary {
+    @apply bg-emerald text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-emerald/90 hover:shadow-lg transform hover:-translate-y-1;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-navy text-navy px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-navy hover:text-white;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-navy to-emerald bg-clip-text text-transparent;
+  }
+  
+  .plasma-bg {
+    background: linear-gradient(135deg, #1e3a8a 0%, #059669 50%, #64748b 100%);
+  }
+  
+  .hero-bg {
+    background: linear-gradient(135deg, #dbeafe 0%, #f0fdf4 100%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+} 

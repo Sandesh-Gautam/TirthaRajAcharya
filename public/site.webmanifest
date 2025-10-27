@@ -1,0 +1,16 @@
+{
+  "name": "Dr. Tirtha Raj Acharya - Portfolio",
+  "short_name": "Tirtha Raj Acharya",
+  "description": "Postdoctoral Research Fellow specializing in non-thermal plasma physics and sustainable chemistry",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/tirtha.jpg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 

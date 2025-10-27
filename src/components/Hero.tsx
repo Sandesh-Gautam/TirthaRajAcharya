@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { ArrowDown, Download, Eye } from 'lucide-react';
 import { heroSection } from '@/data/portfolio';
+import tirtha from '../../public/tirtha.jpg';
 
 export default function Hero() {
   const scrollToNext = () => {
@@ -18,7 +19,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/tirtha.jpg"
+          src={tirtha}
           alt="Dr. Tirtha Raj Acharya"
           fill
           className="object-cover opacity-40"
